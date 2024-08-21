@@ -5,7 +5,7 @@ pipeline {
         stage('Create') {
             steps {
                 bat 'javac Atharv.java'
-                bat 'java Atharv'
+              
             }
            }
         stage1('Run') {
